@@ -1,0 +1,74 @@
+
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+  }
+   
+   body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      width: 80%;
+      /* max-width: 600px; */
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      /* margin: auto; */
+      margin-top: -15%;
+    }
+
+    .progress-title {
+      margin-top: 20px;
+    }
+
+    .progress {
+      height: 15px;
+      background-color: #ddd;
+      border-radius: 8px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      border-radius: 8px;
+      text-align: right;
+      color: white;
+    }
+
+    .progress-value {
+      padding: 2px 8px;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 0 8px 8px 0;
+    }
+    .heading {
+        text-align: center; /* Center the heading text */
+      margin-top: 30px;
+      position: relative; 
+    }
+
+    .heading h2 {
+        color: #1e6081;
+        padding-bottom: 10px;
+        display: inline-block; /* Make the heading inline to match word width */
+      }
+  
+      .heading h2::after {
+        content: ""; /* Create the underline */
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%); /* Center the underline */
+        width: 100%; /* Set the underline width to match the word */
+        height: 2px;
+        /* background-color: #1e6081; */
+      }

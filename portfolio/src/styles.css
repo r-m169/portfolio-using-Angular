@@ -1,0 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@100&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,200;0,400;0,700;1,100&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins&family=Victor+Mono:wght@100;500&display=swap');
+ /* @import url('/portfolio/node_modules/@fortawesome/fontawesome-free/scss'); */
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}

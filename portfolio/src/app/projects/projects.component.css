@@ -1,0 +1,38 @@
+
+.card {
+    margin: 10px; 
+    text-align: center; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 22px;
+   margin-bottom: 122px;
+}
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h5,a,p{
+color: #1E6081;
+}
+
+.btn {
+    transition: transform 0.4s ease-in-out;
+    border: 1px solid #1E6081;
+    color: #1E6081;
+  }
+  
+  .btn:hover {
+    color: white;
+    background-color: #1E6081;
+    box-shadow: 2px 2px 10px 10px #F7F1E4;
+    transform: scale(1.05);
+  }

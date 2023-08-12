@@ -1,0 +1,51 @@
+* {
+  background-color: #1E6081;
+}
+
+h5,
+p {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #F7F1E4;
+  font-weight: bold;
+}
+
+.btn {
+  transition: transform 0.4s ease-in-out;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn:hover {
+  color: #1E6081;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px 10px #F7F1E4;
+  transform: scale(1.05);
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+  .typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    animation: typing 4s steps(30, end) infinite, blink 0.5s step-end infinite alternate;
+  }
+  
+  
